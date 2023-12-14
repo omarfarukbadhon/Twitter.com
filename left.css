@@ -1,0 +1,206 @@
+.left-section{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 170px;
+    width: 150px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo:hover{
+    background-color: rgb(209, 209, 209);
+    border-radius: 15px;
+}
+
+.logo-image{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home, 
+.explore,
+.notification,
+.message,
+.list,
+.bookmarks,
+.communities,
+.premium,
+.profile,
+.more{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.home:hover,
+.explore:hover,
+.notification:hover,
+.message:hover,
+.list:hover,
+.bookmarks:hover,
+.communities:hover,
+.premium:hover,
+.profile:hover,
+.more:hover{
+    background-color: rgb(209, 209, 209);
+    border-radius: 15px;
+}
+
+.home{
+    width: 70px;
+}
+
+.explore{
+    width: 80px;
+}
+
+.notification{
+    width: 100px;
+}
+
+.message{
+    width: 95px;
+}
+
+.list{
+    width: 65px;
+}
+
+.bookmarks{
+    width: 100px;
+}
+
+.communities{
+    width: 110px;
+}
+
+.premium{
+    width: 90px;
+}
+
+.profile{
+    width: 80px;
+}
+
+.more{
+    width: 70px;
+}
+
+
+.home-image{
+    width: 15px;
+}
+
+.bookmarks-image{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+}
+
+.home-text{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+.explore-text{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+.button-post{
+    margin-top: 15px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 8px 50px;
+    width: 130px;
+    border: none;
+}
+
+.button-post:hover{
+    background-color: rgb(22, 152, 228);
+}
+
+.author-info{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+}
+
+.author-info:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 25px;
+}
+
+.email-profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.author-email{
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author-name,
+.author-username{
+    font-size: 8px;
+}
+
+.author-name{
+    font-weight: bold;
+}
+
+.author-username{
+    color: gray;
+    margin-top: 2px;
+}
+
+.more-three-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.three-dots{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+

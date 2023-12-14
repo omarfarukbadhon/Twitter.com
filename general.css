@@ -1,0 +1,13 @@
+body{
+    font-family: Arial;
+    height: 10000px;
+}
+
+p{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}

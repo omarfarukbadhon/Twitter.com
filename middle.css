@@ -1,0 +1,309 @@
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 2000px;
+    margin-left: 330px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: rgb(240, 239, 239);
+    margin-top: -8px;
+}
+
+.header{
+    width: 350px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(240, 239, 239);
+    background-color: white;
+    opacity: 0.9;
+    z-index: 100;
+}
+
+.for-you,
+.following{
+    padding: 10px 0;
+    margin-left: 0;
+}
+
+.for-you:hover,
+.following:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+.text-for-you,
+.text-following{
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.text-for-you{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.text-following{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.img-setting{
+    display: flex;
+    justify-content: center;
+    margin-left: 12px; 
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+.img-setting:hover{
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+}
+
+.setting{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 12px;
+}
+
+.post-section{
+    margin-top: 33px;
+    height: 85px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column;
+}
+
+.writting-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.input-text{
+    border: none;
+    margin-left: 5px;
+}
+
+.input-text::placeholder {
+    font-size: 12px;
+}
+
+.emogi-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-left: 45px;
+}
+
+.image{
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 12px;
+    filter: invert(50%) sepia(99%) saturate(2215%) hue-rotate(179deg) brightness(97%) contrast(94%);
+}
+
+.location{
+    margin-right: 15px;
+    width: 12px;
+    filter: invert(50%) sepia(99%) saturate(2215%) hue-rotate(179deg) brightness(97%) contrast(94%);
+}
+
+.image-hover{
+    margin-right: 5px;
+}
+
+.image-hover:hover{
+    background-color: rgb(193, 211, 223);
+    border-radius: 15px;
+}
+
+.post-click{
+    margin-left: 95px;
+}
+
+.post-button{
+    padding: 6px 10px;
+    background-color: rgb(97, 183, 240);
+    border-radius: 15px;
+    border: none;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.show-post{
+    margin-top: 16px;
+    height: 50px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-more-post{
+    font-size: 9px;
+    padding-bottom: 7px;
+    filter: invert(50%) sepia(99%) saturate(2215%) hue-rotate(179deg) brightness(97%) contrast(94%);
+    cursor: pointer;
+}
+
+.all-post{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-post{
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+    height: 393px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(240, 239, 239);
+}
+
+
+.first-post:hover{
+    background-color: rgb(239, 243, 244);
+}
+
+.second-post{
+    display: flex;
+    flex-direction: row;
+    height: 393px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(240, 239, 239);
+}
+
+
+.second-post:hover{
+    background-color: rgb(239, 243, 244);
+}
+
+.profile-of-post-author{
+    display: flex;
+    margin: 5px;
+    margin-left: 12px;
+}
+
+.profile-of-author{
+    width: 26px;
+    height: 26px;
+    border-radius: 25px;
+}
+
+.post-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-author-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.bdcrictime{
+    font-size: 9px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+.verified{
+    width: 12px;
+    margin-top: 7px;
+    margin-left: 2px;
+    filter: invert(50%) sepia(99%) saturate(2215%) hue-rotate(179deg) brightness(97%) contrast(94%);
+}
+
+.commat{
+    font-size: 9px;
+    color: rgb(165, 161, 161);
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+.three-dots-post{
+    width: 12px;
+    margin-top: 7px;
+    margin-left: 120px;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(4%) saturate(9%) hue-rotate(3deg) brightness(79%) contrast(88%);
+}
+
+.post-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line,
+.second-line{
+    font-size: 9px;
+    color: rgb(65, 65, 65);
+    margin-left: 3px;
+}
+
+.first-line{
+    margin-bottom: 12px;
+}
+
+.second-line{
+    filter: invert(50%) sepia(99%) saturate(2215%) hue-rotate(179deg) brightness(97%) contrast(94%);
+}
+
+.image-of-post{
+    display: flex;
+    margin-top: 8px;
+}
+
+.post-image{
+    width: 230px;
+    border-radius: 10px;
+}
+
+.like-comment-share{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.comment,
+.re-post,
+.like,
+.share,
+.save,
+.download{
+    width: 12px;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(4%) saturate(9%) hue-rotate(3deg) brightness(79%) contrast(88%);
+}
+
+.comment-number,
+.re-post-number,
+.like-number,
+.share-number{
+    font-size: 10px;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(4%) saturate(9%) hue-rotate(3deg) brightness(79%) contrast(88%);
+    margin-right: 38px;
+    margin-left: 5px;
+}
+
+.share-number{
+    margin-right: 35px;
+}
+
+.download{
+    margin-left: 8px;
+}
